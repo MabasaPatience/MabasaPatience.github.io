@@ -1,0 +1,205 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.home{
+    min-height:80vh;
+    background-color:black;
+      background-size:cover; 
+    
+  
+}
+.rowrrrr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home .welcometext{  
+min-height:80vh;  
+}
+.home .home-content{
+
+flex:0 0 100%;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.home .home-content .welcomeNote{
+
+flex:0 0 75%;
+max-width: 75%; 
+    }
+    #imge{
+        box-shadow: 5px 10px #888888;
+    }
+
+.navbar-style {
+box-shadow:0 5px 10px;
+background-color:lightsteelblue;
+}
+li a {
+    color:darkolivegreen
+}
+.big-text {
+    font-size:52px;
+    margin:20px 0;
+    color:chocolate
+}
+a.btn {
+    margin: 30px 10px;
+    width:150px;
+    padding:10px;
+    border-radius:20px;
+}
+    a.btn:hover {
+    background:darkorange;
+    border:none;
+    color:#fff;
+    box-shadow:10px 10px 15px #999;
+    transition:0.3s;
+    }
+.btn-CV {
+    background-color:darkgoldenrod;
+    color:#fff;
+    padding-top: 45px;
+}
+
+.bg-teal{
+background-color: rgb(245, 119, 119);
+    background-color: teal;
+
+}
+.ht{
+    margin: 24px;
+    font-weight: bold;
+    color: rgb(87, 124, 141);
+font-style: italic;
+text-shadow: 5px 1px darkgray;
+font-size: 40px;
+}
+hr{
+    margin-top: 2px; 
+    border-color:teal;
+    border-width: 4px;
+}
+.portfo_body{
+
+    background-color: #999;
+}
+.h{
+    width: 100%;
+    height: 66px;
+    background-color: rgb(48, 45, 45);
+    color: white;
+   
+}
+#portfolio_list{
+    list-style-type:none ;
+}
+#portfolio_list li{
+    display: inline-block;
+    margin: 10px;
+}
+.mts-5{
+    margin-bottom: 5px;
+}
+.bg-skills{
+    background-color: rgb(184, 158, 124);
+}
+#portfolio{
+    list-style-type:none ;
+}
+.card_header{
+    background-color:lightsteelblue;
+    font-size: 20px;
+    font-weight: 4px;
+
+}
+.text-white{
+    color:white;
+}
+.card_body{
+    background-color:rgb(43, 66, 66);
+    height: 270px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    margin-top: 5px;
+}
+.italic-style{
+    font-style: italic;
+}
+#overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#portfolio li{
+     display: inline-block;
+     margin: 10px;
+}
+#portfolio li img{
+    width: 340px;
+    height: 170px;
+}
+#frame{
+    position: fixed;
+    display: none;
+    left: 40%;
+    background-color: rgb(31, 28, 28);
+    width: 700px;
+    height: 400px;
+    margin-left: -250px;
+
+}
+
+.red{
+background-color: rgb(247, 25, 25);
+}
+.Softskill{
+    font-size:20px;
+    padding-top: 80px;
+
+}
+.color-t{
+    color:burlywood
+}
+#frame img{  
+width: 860px;
+margin: 15px;
+}
+#contact{
+    background-color:rgb(42, 115, 121); 
+    margin-top: 30px;
+}
+footer{
+    background-color:lightsteelblue;
+    height: 320px;
+}
+input{
+    width: 100px;
+}
+.copyright{
+    background-color:lightsteelblue;
+    font-size: 20px;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+
+/* Set width on the form input elements since they're 100% wide by default */
