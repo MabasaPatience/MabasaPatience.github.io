@@ -108,6 +108,9 @@ hr{
     display: inline-block;
     margin: 10px;
 }
+.mt-25{
+    margin-top: 60px;
+}
 .mts-5{
     margin-bottom: 5px;
 }
@@ -118,7 +121,7 @@ hr{
     list-style-type:none ;
 }
 .card_header{
-    background-color:lightsteelblue;
+  
     font-size: 20px;
     font-weight: 4px;
 
@@ -128,7 +131,14 @@ hr{
 }
 .card_body{
     background-color:rgb(43, 66, 66);
-    height: 270px;
+    height: 380px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.OET-body{
+    background-color:rgb(43, 66, 66);
+    height: 360px;
     font-size: 15px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -175,6 +185,7 @@ background-color: rgb(247, 25, 25);
     padding-top: 80px;
 
 }
+
 .color-t{
     color:burlywood
 }
@@ -183,13 +194,11 @@ width: 860px;
 margin: 15px;
 }
 #contact{
-    background-color:rgb(42, 115, 121); 
-    margin-top: 30px;
-}
-footer{
     background-color:lightsteelblue;
-    height: 320px;
+    margin-top: 30px;
+    height: 360px;
 }
+
 input{
     width: 100px;
 }
