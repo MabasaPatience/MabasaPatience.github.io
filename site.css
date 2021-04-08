@@ -90,6 +90,12 @@ hr{
     border-color:teal;
     border-width: 4px;
 }
+hr.k{
+    margin-top: 2px; 
+    
+    border-color:rgb(230, 240, 240);
+    border-width: 4px;
+}
 .portfo_body{
 
     background-color: #999;
@@ -194,11 +200,14 @@ width: 860px;
 margin: 15px;
 }
 #contact{
-    background-color:lightsteelblue;
+    
     margin-top: 30px;
-    height: 360px;
+    
 }
-
+i a {
+    color:darkolivegreen;
+    margin-right: 6px;
+}
 input{
     width: 100px;
 }
