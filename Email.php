@@ -14,8 +14,9 @@ if(empty($name) || empty($visitorsEmail) || empty($phonenumber) || empty($messag
     echo "all feilds are medetory";
     exit;
 }else{
+     header("Location: index.html");
     mail($to,$visitorsEmail,$phonenumber,$message);
-    header("Location: index.html?mailsend");
+   
 }
 
 
