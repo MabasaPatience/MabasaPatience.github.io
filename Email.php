@@ -15,6 +15,7 @@ if(empty($name) || empty($visitorsEmail) || empty($phonenumber) || empty($messag
     exit;
 }else{
     mail($to,$visitorsEmail,$phonenumber,$message);
+    header("Location: index.html?mailsend");
 }
 
 
